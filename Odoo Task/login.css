@@ -1,0 +1,52 @@
+body{
+    background-image: url("Screenshot 2024-06-28 161911.png");
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+.container{
+    padding: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #e7eae8;
+    color: #1d1818;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #b7aeae;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    padding: 15px;
+}
+
+form label{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+form input{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+form select{
+    padding: 8px;
+}
+
+form button {
+    padding: 8px;
+    background-color: #326142;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #100f0f;
+    cursor: pointer; /* Optional: changes the cursor to a pointer on hover */
+}
+
+form button:hover {
+    background-color: #5b7363; /* New background color on hover */
+}

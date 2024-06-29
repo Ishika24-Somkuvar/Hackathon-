@@ -1,0 +1,19 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/* Style for the box */
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #745555;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 160px; /* Center text vertically */
+}

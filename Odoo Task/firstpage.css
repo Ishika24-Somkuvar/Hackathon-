@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://via.placeholder.com/1500') no-repeat center center/cover; /* Update this URL to your desired background image */
+    background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
+    color: #eee3e3; /* Adjust text color for better readability against the background */
+    background-image: url('Screenshot 2024-06-28 161911.png')
+    
+}
+
+
+
+header {
+    background-color: rgba(95, 189, 100, 0.8); /* Make the header semi-transparent */
+    color: white;
+    padding: -0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ nav ul li{
+    margin-left: 2rem;
+    position: relative;
+    top: 10px; /* Moves the element 10px down from its original position */
+    left: 1024px;
+    margin-bottom : 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: rgba(0, 0, 0, 0.6); /* Add a dark overlay */
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-content .btn:hover {
+    background-color: #45a049;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Make the features section semi-transparent */
+}
+header ul li a:hover {
+    background-color: #c9b6b6; /* Darker background on hover */
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #333;
+}
+
+footer {
+    background-color: rgba(76, 175, 80, 0.8); /* Make the footer semi-transparent */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
